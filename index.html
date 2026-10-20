@@ -1,9 +1,212 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Sample</title>
+        <title>Amazon</title>
     </head>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <body>
-        
+        <header>
+            <div class="navbar">
+                <div class="nav-logo border">
+                    <div class = "logo"></div>
+                </div>
+                <div class = "nav-address border">
+                    <p class ="add-first">Deliver to</p>
+                    <div class ="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class = "add-second">India</p>
+                    </div>
+                </div>
+
+                <!--Third box-->
+                
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="Search Amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </div>
+                </div>
+
+                <!--forth box-->
+
+                <div class="nav-language border">
+                    <i class="fa-solid fa-flag-usa"></i>
+                    <div class="english">EN</div>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="lan-select">
+                    <select>
+                        <option></option>
+                    </select>
+                    </div>
+                </div>
+                <div class="nav-signin border">
+                    <p><span>Hello, sign in</span></p>
+                    <p class="nav-second">Account & Lists</p>
+                </div>
+                <div class="nav-return border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-all">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+                </div>
+                <div class="panel-ops">
+                    <p>Today's Deals</p>
+                    <p>Gift Cards</p>
+                    <p>Sell</p>
+                    <p>Registry</p>
+                    <P>Prime video</P>
+                    <p>Customer Service</p>
+                </div>
+                <div class="panel-deals">
+                    Shop Deals On Electronics
+                </div>
+            </div>
+        </header>
+        <div class="hero-section">
+        <div class="hero-notice">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>"Click here to go to amazon.in"</a></p>
+        </div>
+        </div>
+
+        <!----------------------Shop------------------->
+
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Get your game on</h2>
+                    <div class="box-img" style="background-image: url('box1-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>New kitchen arrivel</h2>
+                    <div class="box-img" style="background-image: url('box2-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Top cooking products</h2>
+                    <div class="box-img" style="background-image: url('box3-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>Find latest fasion</h2>
+                    <div class="box-img" style="background-image: url('box4-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+
+            <!--------------------Wrap Two-------------------->
+
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Get your game on</h2>
+                    <div class="box-img" style="background-image: url('box1-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Get your game on</h2>
+                    <div class="box-img" style="background-image: url('box1-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Get your game on</h2>
+                    <div class="box-img" style="background-image: url('box1-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>Get your game on</h2>
+                    <div class="box-img" style="background-image: url('box1-image.jpg');"></div>
+                    <p>See More</p>
+                </div>
+            </div>
+        </div>
+
+        <!---------login bar---------->
+        <hr class="hr-line">
+        <div class="login-bar">
+            <h2 class="login-notice">See Personalize recommendation</h2>
+            <button class="login-button">Sign In</button>
+            <p class="link-class">New Customer?<a href = "#">Start Here.</a></p>
+            <hr>
+        </div>
+        <hr class="hr-line">
+        <!--------------------FOOTER------------------>
+
+        <footer>
+        <div class="foot-panel1">
+              Back to top
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+             <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+                <a>Amazon Ads</a>
+                <a>Amazon Cinema</a>
+            </ul>
+             <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+             <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+                <a>Amazon Telivision</a>
+                <a>Amazon Internship</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo2">
+
+            </div>
+        </div>
+        </footer>
     </body>
 </html>
